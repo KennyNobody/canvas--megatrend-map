@@ -1,0 +1,50 @@
+{
+  "name": "canvas--megatrend-map",
+  "version": "0.0.1",
+  "description": "Canvas version of Megatrend Map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "webpack serve",
+    "lint": "npx eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennyNobody/kanvas--megatrend-map.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "Egor Badulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KennyNobody/kanvas--megatrend-map/issues"
+  },
+  "homepage": "https://github.com/KennyNobody/kanvas--megatrend-map#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "babel-eslint": "^10.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "prettier": "2.6.2",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1"
+  },
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "konva": "^8.3.8",
+    "normalize.css": "^8.0.1"
+  }
+}
