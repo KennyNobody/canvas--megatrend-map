@@ -1,7 +1,8 @@
 # Megatrend-map (canvas)
 
+Deploy: [gh-pages](https://kennynobody.github.io/canvas--megatrend-map/index.html) \
 Original: [https://www.zukunftsinstitut.de/artikel/die-megatrend-map/](https://www.zukunftsinstitut.de/artikel/die-megatrend-map/) \
-Figma: [https://www.figma.com/file/8ebQMEp7gVfuWzju1df6iM/](https://www.figma.com/file/8ebQMEp7gVfuWzju1df6iM/%D0%9A%D0%B0%D1%80%D1%82%D0%B0-%D0%BC%D0%B5%D0%B3%D0%B0%D1%82%D1%80%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2?node-id=1%3A524)
+Figma: [https://www.figma.com/file/8ebQMEp7gVfuWzju1df6iM/](https://www.figma.com/file/8ebQMEp7gVfuWzju1df6iM/%D0%9A%D0%B0%D1%80%D1%82%D0%B0-%D0%BC%D0%B5%D0%B3%D0%B0%D1%82%D1%80%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2?node-id=1%3A524) 
 
 ## NEO-ECOLOGY
 
