@@ -1,6 +1,14 @@
 <svg width="1734" height="1191" viewBox="0 0 1734 1191" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="normal green path">
-<path d="" fill="#6CBE98"/>
-<path d="M826.242 793.102H382.779V797.991H826.242V793.102Z" fill="#6CBE98"/>
-<path d="M308.287 710.669L384.507 786.889L381.05 790.346L304.83 714.126L308.287 710.669Z" fill="#6CBE98"/>
+<path id="dark green" d="" stroke="#005D40" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="red" d="" stroke="#D20328" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="yellow" d="" stroke="#F39100" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="light blue" d="" stroke="#00A7E7" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="grey" d="" stroke="#8C9091" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="pink" d="" stroke="#E5007D" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="light green" d="" stroke="#A2C613" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="green" d="" stroke="" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="brown" d="" stroke="#954329" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="purple" d="" stroke="#831D81" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="blue" d="" stroke="#0063A3" stroke-width="4.889" stroke-miterlimit="10"/>
+<path id="normal green" d="" stroke="#6CBE98" stroke-width="4.889" stroke-miterlimit="10"/>
 </svg>

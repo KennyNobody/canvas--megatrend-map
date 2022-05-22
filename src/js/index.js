@@ -106,12 +106,8 @@ class Map {
     setLines = (data, params) => {
 
         for (let i in data) {
-            let itemObject = data[i];
-
-            for (let n in itemObject) {
-                let path = new Konva.Path(itemObject[n]);
-                this.layerPlan.add(path);
-            }
+            let path = new Konva.Path(data[i]);
+            this.layerPlan.add(path);
         }
 
         this.stage.add(this.layerPlan);
