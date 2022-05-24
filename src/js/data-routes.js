@@ -3,84 +3,84 @@ export let data = [
         role: 'green-dark',
         data: "M1172.7 130.351L1103.41 199.642V365.941H1352.86V466.414L1311.28 507.989V573.815H1169.23L1100.94 505.553L921.815 684.681H826.243L722.306 788.617H382.779L382.779 469.878H133.33",
         stroke: "#005D40",
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'red',
         data: 'M443.706 1062.32L613.469 892.555L723.5 782L1165.77 781.689V684.681H1034.12V580.745H874.746L770.81 476.807L306.559 476.806L167.976 615.389',
         stroke: '#D20328',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'yellow',
         data: 'M133.33 1065.78L237.268 961.845V786.587L306.559 717.296V615.389L375.85 546.098L375.85 469.878L1054.9 469.878L1097 511.5L1165.77 580.744H1172.7V788.618H727.206L618.368 897.455L687.66 966.745V1093.5',
         stroke: '#F39100',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'blue-light',
         data: 'M964.825 137.28V372.87H791.597L691.124 478.241L583.723 585.642V691.609H1034.12V795.547H930.18V961.846L1041.05 1072.71',
         stroke: '#00A7E7',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'grey',
         data: 'M327.346 909.877V844.051L486.716 684.68V580.743H578.823L687.66 471.906V130.352',
         stroke: '#8C9091',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'pink',
         data: 'M847.03 1093.5V1038.07L923.25 961.846L923.25 885.625H1075.69L1172.7 788.618H1276.64L1345.93 857.909H1415.22L1519.22 753.908H1588.45',
         stroke: '#E5007D',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'brown',
         data: 'M271.913 1100.43L479.787 892.554H623.269L690.11 959.396L756.951 892.554H1075.69L1131.12 947.987H1345.93M1346.14 947.987H1410.31L1463.72 1001.4V1093.5',
         stroke: '#954329',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'green-light',
         data: 'M479.786 275.863V781.689H583.723V684.681H653.014L756.952 580.744H874.747L874.747 365.94H1103.41L1172.7 296.65H1588.45',
         stroke: '#A2C613',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'green',
         data: 'M514.432 130.351L583.723 199.642V275.863L687.661 379.799L964.825 379.8L1047.97 462.949H1208.78L1253.83 508L1304.35 507.989V577L1345.93 618.5V996.49L1241.99 1100.43',
         stroke: '#1BA037',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'purple',
         data: 'M1588.45 442.162L1449.86 303.579H1345.93V466.413H1200.42L1106.87 372.871H1034.12L964.826 303.58H895.534L826.243 234.288V164.997',
         stroke: '#831D81',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'blue',
         data: 'M1581.52 164.997H1345.93L1276.64 234.289V296.65L1207.34 365.941V471.313L1352.86 615.389V795.547L1415.22 857.909V944L1469 997.5L1588.45 996.491',
         stroke: '#0063A3',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     },
     {
         role: 'green-normal',
         data: 'M1512.23 615.389H1422.15L1352.86 684.682H1276.64L1172.7 580.744H1035.5L923.968 692.328L822.5 795.547H382.5L304.5 710.5L233.5 781.689H133.33',
         stroke: '#6CBE98',
-        strokeWidth: 4.889,
+        strokeWidth: 5,
         strokeMiterlimit: 10
     }
 ];
