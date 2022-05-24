@@ -5,6 +5,7 @@ import Hammer from 'hammerjs';
 import Konva from 'konva';
 import * as lines from './data-routes.js';
 import * as markers from './data-markers.js';
+import * as stations from './data-stations.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const el = document.querySelector('[data-canvas]');
@@ -63,6 +64,7 @@ class Map {
 
         this.setLines(lines.data);
         this.setMarkers(markers.data);
+        this.setStations(stations.data);
 
         this.initResizeScroll();
         // this.initResizeButtons();
@@ -118,6 +120,16 @@ class Map {
     }
 
     setMarkers = (data, params) => {
+
+        for (let i in data) {
+            let path = new Konva.Path(data[i]);
+            this.layerPlan.add(path);
+        }
+
+        this.stage.add(this.layerPlan);
+    }
+
+    setStations = (data, params) => {
 
         for (let i in data) {
             let path = new Konva.Path(data[i]);
