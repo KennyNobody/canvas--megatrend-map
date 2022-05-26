@@ -62,9 +62,11 @@ class Map {
 
         hammertime.get('pinch').set({ enable: true });
 
-        this.setLines(lines.data);
-        this.setMarkers(markers.data);
-        this.setStations(stations.data);
+        this.setData(lines.data);
+        this.setData(markers.data);
+        this.setData(stations.data);
+
+        console.log(this.stage);
 
         this.initResizeScroll();
         // this.initResizeButtons();
@@ -107,11 +109,13 @@ class Map {
 
     }
 
-    setLines = (data, params) => {
+    setData = (data, params) => {
 
         for (let i in data) {
             let path = new Konva.Path(data[i]);
             this.layerPlan.add(path);
+            this.changeCursorType(path);
+            
         }
 
         this.stage.add(this.layerPlan);
@@ -119,24 +123,20 @@ class Map {
         this.centered();
     }
 
-    setMarkers = (data, params) => {
+    changeCursorType = (param) => {
+        param.on('mouseenter', () => {
+            if (param.attrs.cursor && param.attrs.cursor !== 'default') {
+                this.stage.container().style.cursor = param.attrs.cursor;
+                param.shadowOpacity(0.8);
+            }
+        });
 
-        for (let i in data) {
-            let path = new Konva.Path(data[i]);
-            this.layerPlan.add(path);
-        }
-
-        this.stage.add(this.layerPlan);
-    }
-
-    setStations = (data, params) => {
-
-        for (let i in data) {
-            let path = new Konva.Path(data[i]);
-            this.layerPlan.add(path);
-        }
-
-        this.stage.add(this.layerPlan);
+        param.on('mouseleave', () => {
+            if (param.attrs.cursor && param.attrs.cursor !== 'default') {
+                this.stage.container().style.cursor = 'default';
+                param.shadowOpacity(0);
+            }
+        });
     }
 
     initResizeScroll = () => {

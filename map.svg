@@ -1,16 +1,10 @@
 <svg width="1734" height="1191" viewBox="0 0 1734 1191" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Wrapper">
 <g id="stations">
-
-<g id="end-green_6">
-<path id="Vector_98" d="" fill=""/>
-<path id="Vector_99" d="" fill="white"/>
-<path id="Vector_100" d="" fill="white"/>
-<path id="Vector_101" d="" fill="white"/>
-<path id="Vector_102" d="" fill="white"/>
-<path id="Vector_103" d="" fill="white"/>
-<path id="Vector_104" d="" fill="white"/>
-<path id="Vector_105" d="" fill="white"/>
+<g id="end-grey">
+<path id="Vector" d="" fill="#8C9091"/>
+<path id="Vector_2" d="" fill="white"/>
+<path id="Vector_3" d="" fill="white"/>
 </g>
 </g>
 </g>
